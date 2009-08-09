@@ -27,3 +27,6 @@ The example.py file has a simple example on how to run the program's GUI, loadin
 With this you can already start the GUI and play around with the loaded graph.
 
 = Main Window =
+
+The basic GUI window consists of just 2 menus: *File* and *Graph Tools*
+=== File ===

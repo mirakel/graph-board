@@ -30,3 +30,30 @@ With this you can already start the GUI and play around with the loaded graph.
 
 The basic GUI window consists of just 2 menus: *File* and *Graph Tools*
 === File ===
+  * *Quit*
+
+=== Graph Tools ===
+  * *Export*: export the current graph to the file graph.ps.
+  * *Clean*: eliminate all highlighting elements in the graph (just leave the nodes and arcs).
+  * *Show External Flows*: toggle between showing and hiding the external flow labels on each node.
+  * *Flow Views*: select one of the current two modes of viewing flows: saturation or volume.
+  * *Re-position Nodes*: *DRAFT* automatically re-position the nodes in the canvas in a "better" way.
+  * *Graph Types*: set the graph to directed or undirected.
+  * *New Random Graph*: create a new graph, and add random costs and capacities to the arcs. The user is asked to input the number of nodes and arcs for the new graph, as well as the min/max costs and max capacity of each arc.
+  * *Remove Parameters*: Eliminate the costs, capacities, flow or external flow from the graph.
+
+=== Right Toolbar ===
+
+Currently the right-hand side toolbar only has the *Export*, *Clean*, and *Quit* buttons implemented, replicating functions from the main menu
+
+= Loading New Algorithms =
+
+The GUI allows you to add new algorithms to use with the graph in the canvas. To do so, first add the algorithm library to the same folder as your program and then you just need to add the name of the python file with the algorithm to the `module` variable before running the GUI. E.g.:
+
+{{{
+    # add algorithm libraries here
+    modules = ["search_order", "spanning_trees", "shortest_path"]
+    graph_gui(G, modules)
+}}}
+
+This example loads all the algorithms from the *serach_order*, *spanning_trees*, and *shortest_path* libraries, leaving them as part of the menu.

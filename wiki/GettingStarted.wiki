@@ -1,0 +1,29 @@
+#summary getting started with graph-board
+#labels Featured
+
+= Installation =
+
+Before you can use graph-board, you need to make sure that you have both [http://www.python.org/ python] and [http://numpy.scipy.org/ numpy] installed in your system.
+
+For the moment graph-board doesn't have an setup program, so you need to either manually move the files to your program folder or to the python folder, whichever you prefer, and run it from there.
+
+
+= Example =
+
+The example.py file has a simple example on how to run the program's GUI, loading a graph stored in the graph3.txt file.
+
+{{{
+    # graph definition
+    G = Graph()
+    
+    # build graph from data file
+    G.form_graph_from_file("graph3.txt")
+
+    # add algorithm libraries here
+    modules = []
+    graph_gui(G, modules)
+}}}
+
+With this you can already start the GUI and play around with the loaded graph.
+
+= Main Window =

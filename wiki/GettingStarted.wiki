@@ -8,9 +8,9 @@ Before you can use graph-board, you need to make sure that you have both [http:/
 For the moment graph-board doesn't have an setup program, so you need to either manually move the files to your program folder or to the python folder, whichever you prefer, and run it from there.
 
 
-= Example =
+=== Example ===
 
-The example.py file has a simple example on how to run the program's GUI, loading a graph stored in the graph3.txt file.
+The example.py file, included in the .zip file, has a simple example on how to run the program's GUI, loading a graph stored in the graph3.txt file.
 
 {{{
     # graph definition
@@ -26,7 +26,7 @@ The example.py file has a simple example on how to run the program's GUI, loadin
 
 With this you can already start the GUI and play around with the loaded graph.
 
-= Main Window =
+= Using Graph Board =
 
 The basic GUI window consists of just 2 menus: *File* and *Graph Tools*
 === File ===

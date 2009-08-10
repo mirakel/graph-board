@@ -1,0 +1,17 @@
+#summary using the graph class
+#labels Featured
+
+= Introduction =
+
+The graph class is the basic structure for working in graph board. These are later loaded to the board for further work or modification.
+
+Here we give a small view of how the class is built and what modifiers are currently available. You can check the class help to see all of them in detail (just use `help(Graph())` to get the list)
+
+
+= Graph Construction =
+
+*UNDER CONSTRUCTION*
+
+= Main Modifiers =
+
+*UNDER CONSTRUCTION*

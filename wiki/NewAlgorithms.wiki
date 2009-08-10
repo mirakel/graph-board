@@ -1,0 +1,17 @@
+#summary adding your algorithm library to the board
+#labels Featured,Phase-Implementation
+
+= Introduction =
+
+The graph board was designed with the possibility of adding new algorithms easily, without need of going under the hood of the graph board itself. In order to do this there are simple instructions you need to add to your algorithm that allow the board to load it as part of the menu.
+
+Here we detail what are the required steps to add your algorithm(s) to the board and what tools are available from the graph and board classes that can help you improve the visualization of the results.
+
+
+= Creating Your Library =
+
+*UNDER CONSTRUCTION*
+
+= Creating Your Menu =
+
+*UNDER CONSTRUCTION*

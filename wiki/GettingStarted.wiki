@@ -24,7 +24,9 @@ The example.py file, included in the .zip file, has a simple example on how to r
     graph_gui(G, modules)
 }}}
 
-With this you can already start the GUI and play around with the loaded graph.
+Run this example to start the GUI and play around with the loaded graph. You should see a similar window to this one:
+
+[http://www.rax.cl/example_output.jpg]
 
 = Using Graph Board =
 

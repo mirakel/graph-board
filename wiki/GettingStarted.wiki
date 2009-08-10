@@ -56,4 +56,4 @@ The GUI allows you to add new algorithms to use with the graph in the canvas. To
     graph_gui(G, modules)
 }}}
 
-This example loads all the algorithms from the *serach_order*, *spanning_trees*, and *shortest_path* libraries, leaving them as part of the menu.
+This example loads all the algorithms from the *serach_order*, *spanning_trees*, and *shortest_path* libraries, leaving them as part of the menu. The [http://code.google.com/p/graph-board/wiki/NewAlgorithms Adding New Algorithms] page has more details on how to add your own algorithms to the board

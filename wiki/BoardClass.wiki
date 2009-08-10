@@ -18,8 +18,9 @@ Here we give a small overview of the functions and modifiers available in the bo
 
 = Visualization Options =
 
-  * Graph:
-  * Trees:
+On top of the graph you draw in the canvas, the Graph Board allows to highlight or represent several structures in the graph, making it easier to show them. The following is the list of the current implemented options:
+
+  * Trees/Predecessor array: 
   * Paths:
   * Arc sets:
   * Colourings:

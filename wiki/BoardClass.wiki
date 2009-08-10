@@ -1,0 +1,29 @@
+#summary using the graph board class
+#labels Featured,Phase-Implementation
+
+= Introduction =
+
+The graph board class allows the visualization and modification of the loaded graph. The [http://code.google.com/p/graph-board/wiki/GettingStarted Getting Started] section has a summary of the main functions of the menu.
+
+Here we give a small overview of the functions and modifiers available in the board and in the `graph_board.py` file that can be used afterwords for visualizing algorithms.
+
+
+= Loading the GUI =
+
+*UNDER CONSTRUCTION*
+
+= Main Modifiers and Functions =
+
+*UNDER CONSTRUCTION*
+
+= Visualization Options =
+
+  * Graph:
+  * Trees:
+  * Paths:
+  * Arc sets:
+  * Colourings:
+  * Cuts:
+  * Flows: Saturation / Volume
+
+*UNDER CONSTRUCTION*

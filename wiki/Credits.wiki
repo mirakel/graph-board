@@ -4,7 +4,12 @@
 
 *Rodrigo A. Carrasco*
 
-  * first release
+  * First Release
+  * First Revision
+
+*Xingbo Xu*
+
+  * Reading graph corrections in Rev. 1
 
 
 

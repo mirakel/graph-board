@@ -1,5 +1,5 @@
 """
-Graph Class v.1.0
+Graph Class v.1.01
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -743,7 +743,7 @@ class Graph(object):
         # read each line of text file and put values in corresponding variables
         for line in file.xreadlines():
             # identify the area of the text file
-            if line[0] == "#" or line[0] == "\n":
+            if line[0] == "#" or line[0] == "\r\n":
                 mode = 0
             elif line[0] == "N":
                 mode = 1
@@ -768,46 +768,46 @@ class Graph(object):
                 if mode == 1:            # N       
                     # clean both sides
                     line = line.lstrip('[')
-                    line = line.rstrip(']\n')
+                    line = line.rstrip(']\r\n')
                     # get the numbers
                     N_line = [int(x) for x in line.split(',')]
                     N.append(N_line)
                 elif mode == 2:          # A
                     # clean both sides
                     line = line.lstrip('[')
-                    line = line.rstrip(']\n')
+                    line = line.rstrip(']\r\n')
                     # get the numbers
                     A_line = [int(x) for x in line.split(',')]
                     A.append(A_line)
                 elif mode == 3:          # c
                     # clean both sides
                     line = line.lstrip('[')
-                    line = line.rstrip(']\n')
+                    line = line.rstrip(']\r\n')
                     # get the numbers
                     c = [float(x) for x in line.split(',')]
                 elif mode == 4:          # u
                     # clean both sides
                     line = line.lstrip('[')
-                    line = line.rstrip(']\n')
+                    line = line.rstrip(']\r\n')
                     # get the numbers
                     u = [float(x) for x in line.split(',')]
                 elif mode == 5:          # f
                     # clean both sides
                     line = line.lstrip('[')
-                    line = line.rstrip(']\n')
+                    line = line.rstrip(']\r\n')
                     # get the numbers
                     f = [float(x) for x in line.split(',')]
                 elif mode == 6:          # x
                     # clean both sides
                     line = line.lstrip('[')
-                    line = line.rstrip(']\n')
+                    line = line.rstrip(']\r\n')
                     # get the numbers
                     x_line = [float(x) for x in line.split(',')]
                     coord.append(x_line)
                 elif mode == 7:          # B
                     # clean both sides
                     line = line.lstrip('[')
-                    line = line.rstrip(']\n')
+                    line = line.rstrip(']\r\n')
                     # get the numbers
                     B = [float(x) for x in line.split(',')]
         

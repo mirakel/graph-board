@@ -5,6 +5,9 @@
 *Rodrigo A. Carrasco*
 
   * First Release
+  * Project Maintenance
+  * Wiki
+
   * First Revision
 
 *Xingbo Xu*

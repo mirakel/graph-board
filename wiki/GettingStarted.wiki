@@ -46,7 +46,11 @@ The basic GUI window consists of just 2 menus: *File* and *Graph Tools*
 
 === Right Toolbar ===
 
-Currently the right-hand side toolbar only has the *Export*, *Clean*, and *Quit* buttons implemented, replicating functions from the main menu
+Currently the right-hand side toolbar only has the *Export*, *Clean*, and *Quit* buttons implemented, replicating functions from the main menu.
+
+=== The Canvas ===
+
+You can do several actions over the graph in the canvas using the mouse, such as move nodes, add nodes and arcs, change arc weights, etc. Check the BoardClass page to see what things you can do.
 
 = Loading New Algorithms =
 

@@ -52,4 +52,5 @@ As you will see on the modifier functions, there are several other types of stru
   * *T* tree: it is a vector that represents a tree on the graph. On position _i-1_ has the number of the parent node of node _i_ or a 0 if it has no parent. Vector *T* must have the same size as the number of nodes.
   * *P* path: is a vector that lists a path of nodes. The vector can have any length and it contains the sequence from start to end of the path.
   * *C* colouring: is a vector with the same number of elements as nodes in the graph, where on element _i-1_ has stored a number equivalent to the colour of node _i_. Check the GraphBoard() Class to see what colours are available.
-  * *S* set of arcs: is a vector with a list of positions of arcs in *A* to which we want to do something. It doesn't require any special size nor any special order.
+  * *AR* set of arcs: is a vector with a list of positions of arcs in *A* to which we want to do something. It doesn't require any special size nor any special order.
+  * *S* cut: it is a vector that contains the number of the nodes that are on the _S_ side of the cut. Clearly *S* needs to be smaller or equal than the number of nodes in _G_

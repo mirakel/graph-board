@@ -72,3 +72,5 @@ The following is the list of the current implemented modifiers:
 
 How to call them?
 This is easy. For example let's say that you just programmed an algorithm that defines some sort of cut *S*. What you will do at the end of your algorithm is add the lines `board.draw_graph()` to reset the board and draw a clean graph, and then `board.draw_cut(S)` where *S* is the output of your algorithm. This will highlight your cut output over the graph previously drawn.
+
+You can try all these functions by using the algorithms provided in the algorithm library. Check the code if you like to see how they are used.

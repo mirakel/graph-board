@@ -8,7 +8,7 @@ The graph board class allows the visualization and modification of the loaded gr
 Here we give a small overview of the functions and modifiers available in the board and in the `graph_board.py` file that can be used afterwords for visualizing algorithms.
 
 
-= Loading the GUI =
+= Loading and Playing on the GUI =
 
 *UNDER CONSTRUCTION*
 

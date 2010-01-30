@@ -39,7 +39,9 @@ The basic GUI window consists of just 2 menus: *File* and *Graph Tools*
   * *Clean*: eliminate all highlighting elements in the graph (just leave the nodes and arcs).
   * *Show External Flows*: toggle between showing and hiding the external flow labels on each node.
   * *Flow Views*: select one of the current two modes of viewing flows: saturation or volume.
-  * *Re-position Nodes*: *DRAFT* automatically re-position the nodes in the canvas in a "better" way.
+
+  * *Re-position Nodes*: *DRAFT* automatically re-position the nodes in the canvas in a "better" way. When you select this option, the program simulates a dynamic model, where the graph is assumed to be floating on a flat surface, with a positive charge given to each node (and the borders, so the graph is repelled from the borders). On the other hand each arc is simulated as an elastic or spring connecting the nodes. The model is then simulates until the graph "converges" to its new position. Try it out!
+
   * *Graph Types*: set the graph to directed or undirected.
   * *New Random Graph*: create a new graph, and add random costs and capacities to the arcs. The user is asked to input the number of nodes and arcs for the new graph, as well as the min/max costs and max capacity of each arc.
   * *Remove Parameters*: Eliminate the costs, capacities, flow or external flow from the graph.

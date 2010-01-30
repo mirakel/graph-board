@@ -10,7 +10,7 @@ For the moment graph-board doesn't have an setup program, so you need to either 
 
 === Example ===
 
-The example.py file, included in the .zip file, has a simple example on how to run the program's GUI, loading a graph stored in the graph3.txt file.
+The example.py file, included in the main .zip file, has a simple example on how to run the program's GUI, loading a graph stored in the graph3.txt file, but without loading any of the libraries.
 
 {{{
     # graph definition

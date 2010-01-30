@@ -96,3 +96,5 @@ Instead of "write" we now have "append", which adds a new page with the drawing,
 {{{
     draw_graph(G, ["style", "append", "name.ps"], ["path", nc_path], ["coloring", C])
 }}}
+
+This allows for a very flexible way of showing intermediate steps that can help you illustrate how your algorithm works and build some examples.

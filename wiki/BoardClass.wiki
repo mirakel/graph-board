@@ -74,3 +74,25 @@ How to call them?
 This is easy. For example let's say that you just programmed an algorithm that defines some sort of cut *S*. What you will do at the end of your algorithm is add the lines `board.draw_graph()` to reset the board and draw a clean graph, and then `board.draw_cut(S)` where *S* is the output of your algorithm. This will highlight your cut output over the graph previously drawn.
 
 You can try all these functions by using the algorithms provided in the algorithm library. Check the code if you like to see how they are used.
+
+= Step Visualization =
+
+One additional cool feature of this program is that it allows you to show the steps given by your algorithm. Imagine you are trying a Cycle Cancelling Algorithm to fin a minimum cost flow. If you just run the algorithm you will get your final solution, but it will be very helpful for classes and demonstrations to show the intermediate steps. In order to do so you can use the `draw_graph` function that comes in the `graph_board.py` file. This will create a multi-page .ps file where you have each step of your algorithm in one page.
+
+How to use it? Check the `min_cost_flow.py` library for an example.
+
+You would first call:
+{{{
+    draw_graph(G, ["style", "write", "name.ps"])
+}}}
+
+This will create a file "name.ps", with the initial graph *G*.
+After the first iteration you would like to add a page with the first step taken, then you add:
+{{{
+    draw_graph(G, ["style", "append", "name.ps"], ["path", nc_path])
+}}}
+
+Instead of "write" we now have "append", which adds a new page with the drawing, and the second structure indicates that over the graph it must add a "path" contained in the variable `nc_path`. Check the function code as you can add several additional pairs of parameters to draw additional thins like trees and colourings. For example the following code will append to the previous file the same drawing as before but with an additional colouring *C* over it:
+{{{
+    draw_graph(G, ["style", "append", "name.ps"], ["path", nc_path], ["coloring", C])
+}}}
